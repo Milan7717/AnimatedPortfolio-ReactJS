@@ -46,7 +46,7 @@ const Navbar = () => {
             onClick={closeMenu}
           >
             <img
-              className="md:h-16 h-12 bg-cover object-center  rounded-full "
+              className=" md:h-16 h-12 bg-cover object-center  rounded-full "
               src="assets/img/logo.png"
               alt=""
             />

@@ -3,6 +3,10 @@
   --main-color: #a16dd4;
 }
 
+ 
+nav{
+  z-index: 1;
+}
 .social a {
   position: relative;
   display: inline-flex;
