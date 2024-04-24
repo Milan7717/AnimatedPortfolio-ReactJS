@@ -5,14 +5,14 @@ import { GiHamburgerMenu } from "react-icons/gi";
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [prevPosition, setPrevisionPosition] = useState(0);
-  const [isVisible, setIsVisible] = useState(true);
+  const [isVisible, setVisible] = useState(true);
 
   useEffect(() => {
     setPrevisionPosition(window.scrollY);
 
     const handleScroll = () => {
       const currentPostion = window.scrollY;
-      setIsVisible(prevPosition > currentPostion || currentPostion < 10);
+      setVisible(prevPosition > currentPostion || currentPostion < 10);
       setPrevisionPosition(currentPostion);
     };
     window.addEventListener("scroll", handleScroll);

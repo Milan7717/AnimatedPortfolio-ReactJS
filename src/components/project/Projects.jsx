@@ -6,19 +6,27 @@ import { useInView } from "react-intersection-observer";
 const projectAPi = [
   {
     image:
-      "https://assets.blurb.com/pages/website-assets/portfolio/03_ProductHighlights-portfolio-640x358-graphicdesign-ddf68ca68c528fad5f79746b9634a669b28f20e920a07dc65d98733077ced053.jpg",
-    projectname: "Book Store",
+      "https://t4.ftcdn.net/jpg/03/21/87/17/240_F_321871791_I6DdiEL6qXp5iOxCaDHhuMcAS7oT2vHB.jpg",
+    projectname: "Virtual Reality",
     description:
-      " E-commerce webapp, where customers can see the book list and admin can add book products",
-    link: "www.youtube.com",
+      "Virual reality is a animated website about VR products",
+    link: "https://virtualrelaitysite.netlify.app/",
   },
   {
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4j8sg4eqf-WzytGb4C4l5BtV1rtcYpEUiD4_SX4fZ7Q&s",
     projectname: "Shoe Shop",
     description:
-      " E-commerce webapp, where customers can see the book list and admin can add book products",
-    link: "www.youtube.com",
+      " E-commerce webapp, where customers can see the shoes category list and admin can add shoes products",
+    link: "https://myshoeshop.netlify.app/",
+  },
+  {
+    image:
+      "https://www.feedough.com/wp-content/uploads/2021/09/project-manager-1024x576.webp",
+    projectname: "Shoe Shop",
+    description:
+      "Gigantic is a project management webiste used for the various knowlodge related to project",
+    link: "https://projecttraining.netlify.app/",
   },
 ];
 

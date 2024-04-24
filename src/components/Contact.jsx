@@ -79,7 +79,7 @@ const Contact = () => {
             </div>
           </div>
           <div className="flex flex-col justify-center items-center lg:my-4">
-           <a href="/assets/Milan_MishraCV.pdf" download="MIlanMishraCV"> <motion.button whileHover={{scale:1.2,transition:{repeat:3}}} className="flex gap-2 items-center  bg-zinc-800 p-2 rounded-lg hover:shadow-lg hover:shadow-zinc-700 " >
+           <a href="/assets/Milan_Resume.pdf" download="MIlanMishraCV"> <motion.button whileHover={{scale:1.2,transition:{repeat:3}}} className="flex gap-2 items-center  bg-zinc-800 p-2 rounded-lg hover:shadow-lg hover:shadow-zinc-700 " >
               Resume <IoMdDownload />
             </motion.button>
             </a>
