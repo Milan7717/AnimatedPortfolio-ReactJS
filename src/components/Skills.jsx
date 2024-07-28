@@ -8,8 +8,10 @@ import { DiMongodb } from "react-icons/di";
 import { FaGithub } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
-import { motion, useAnimation,} from "framer-motion";
+import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import { SiTypescript } from "react-icons/si";
+import {TbBrandRedux} from "react-icons/tb";
 
 const parentVariants = {
   initially: {
@@ -66,13 +68,16 @@ const Skills = () => {
 
   return (
     <>
-      <div id="skill"  className="bg-zinc-900 text-zinc-100 min-h-screen w-full">
+      <div id="skill" className="bg-zinc-900 text-zinc-100 min-h-screen w-full">
         <div className="border-t-2 border-zinc-500 md:w-[30%]  w-[50%]"></div>
         <h1 className="lg:text-6xl text-4xl uppercase lg:mx-5 mx-2 my-2 font-semibold">
           My Skills
         </h1>
 
-        <div ref={ref} className="border-t-2 border-zinc-500 md:w-[30%]  w-[50%]"></div>
+        <div
+          ref={ref}
+          className="border-t-2 border-zinc-500 md:w-[30%]  w-[50%]"
+        ></div>
 
         <div className="w-full flex items-center justify-center my-10">
           <motion.div
@@ -120,6 +125,15 @@ const Skills = () => {
               </motion.div>
               <h1 className="md:text-2xl mt-2">Javascript</h1>
             </motion.div>
+            <motion.div
+              variants={skillVariants}
+              className=" flex flex-col items-center bg-zinc-800 lg:p-4 p-2  border-[1px] border-zinc-800 rounded-xl"
+            >
+              <motion.div variants={superchild}>
+                <SiTypescript className="bg-zinc-900 border-[1px] border-red-500 rounded-full p-2 md:text-8xl sm:text-7xl text-6xl" />
+              </motion.div>
+              <h1 className="md:text-2xl mt-2">Typescript</h1>
+            </motion.div>
 
             <motion.div
               variants={skillVariants}
@@ -129,6 +143,16 @@ const Skills = () => {
                 <RiReactjsLine className="bg-zinc-900 border-[1px] border-red-500 rounded-full p-2 md:text-8xl sm:text-7xl text-6xl" />
               </motion.div>
               <h1 className="md:text-2xl mt-2">RecatJS</h1>
+            </motion.div>
+            <motion.div
+              variants={skillVariants}
+              className=" flex flex-col items-center bg-zinc-800 lg:p-4 p-2  border-[1px] border-zinc-800 rounded-xl"
+            >
+              <motion.div variants={superchild}>
+              
+                <TbBrandRedux className="bg-zinc-900 border-[1px] border-red-500 rounded-full p-2 md:text-8xl sm:text-7xl text-6xl" />
+              </motion.div>
+              <h1 className="md:text-2xl mt-2">Redux Toolkit</h1>
             </motion.div>
 
             <motion.div

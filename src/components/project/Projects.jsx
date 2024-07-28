@@ -8,8 +8,7 @@ const projectAPi = [
     image:
       "https://t4.ftcdn.net/jpg/03/21/87/17/240_F_321871791_I6DdiEL6qXp5iOxCaDHhuMcAS7oT2vHB.jpg",
     projectname: "Virtual Reality",
-    description:
-      "Virual reality is a animated website about VR products",
+    description: "Virual reality is a animated website about VR products",
     link: "https://virtualrelaitysite.netlify.app/",
   },
   {
@@ -23,9 +22,9 @@ const projectAPi = [
   {
     image:
       "https://www.feedough.com/wp-content/uploads/2021/09/project-manager-1024x576.webp",
-    projectname: "Shoe Shop",
+    projectname: "Gigantic",
     description:
-      "Gigantic is a project management webiste used for the various knowlodge related to project",
+      "Gigantic is a project management webiste used for the various knowlodge related to project.",
     link: "https://projecttraining.netlify.app/",
   },
 ];
@@ -48,7 +47,6 @@ const childAnimation = {
     y: -20,
   },
   animation: {
-    
     y: 0,
     opacity: 1,
     transition: {
@@ -58,14 +56,14 @@ const childAnimation = {
 };
 
 const Projects = () => {
-  const[ref,inView]=useInView();
-  const controls=useAnimation();
+  const [ref, inView] = useInView();
+  const controls = useAnimation();
 
-  useEffect(()=>{
-    if(inView){
-      controls.start("animation")
+  useEffect(() => {
+    if (inView) {
+      controls.start("animation");
     }
-  },[controls,inView])
+  }, [controls, inView]);
   return (
     <div
       id="project"
@@ -75,7 +73,10 @@ const Projects = () => {
       <h1 className="lg:text-6xl text-4xl uppercase lg:mx-5 mx-2 my-2 font-semibold">
         My Projects
       </h1>
-      <div ref={ref} className="border-t-2 border-zinc-500 md:w-[35%] w-[50%]"></div>
+      <div
+        ref={ref}
+        className="border-t-2 border-zinc-500 md:w-[35%] w-[50%]"
+      ></div>
       <h1 className="my-10">
         These projects showcase my proficiency, providing tangible examples of
         my skills. I offer concise explanations and include links to view the
