@@ -109,7 +109,7 @@ const Contact = () => {
             <label className="my-2">Your email</label>
             <input
               type="text"
-              placeholder="Your Full Name"
+              placeholder="Your Email"
               className="bg-zinc-900 rounded-lg p-1 px-4"
             />
           </div>
@@ -123,7 +123,7 @@ const Contact = () => {
               rows="6"
             ></textarea>
           </div>
-          <motion.button whileHover={{scale:1.2,transition:{repeat:Infinity}}} className="bg-zinc-800 hover:shadow-lg hover:shadow-zinc-700 rounded-xl p-1 mx-4 w-[15%]">
+          <motion.button  className="bg-zinc-800 hover:shadow-lg hover:shadow-zinc-700 rounded-xl p-1 mx-4 w-[15%] border">
             Send
           </motion.button>
         </div>

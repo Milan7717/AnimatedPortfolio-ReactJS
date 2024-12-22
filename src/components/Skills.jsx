@@ -142,7 +142,7 @@ const Skills = () => {
               <motion.div variants={superchild}>
                 <RiReactjsLine className="bg-zinc-900 border-[1px] border-red-500 rounded-full p-2 md:text-8xl sm:text-7xl text-6xl" />
               </motion.div>
-              <h1 className="md:text-2xl mt-2">RecatJS</h1>
+              <h1 className="md:text-2xl mt-2">ReactJS</h1>
             </motion.div>
             <motion.div
               variants={skillVariants}

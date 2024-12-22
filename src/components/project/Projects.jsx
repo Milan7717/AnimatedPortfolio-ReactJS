@@ -6,11 +6,28 @@ import { useInView } from "react-intersection-observer";
 const projectAPi = [
   {
     image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrrWMqsVhMGYKtZo9Dzuu3h04VmV1ybGXWPA&s",
+    projectname: "NepaliGPT",
+    description:
+      "NepaliGPT is an innovative project currently under development, designed to empower Nepali speakers to interact with AI in their native language.",
+    link: "https://new-nepali-gpt.vercel.app/",
+  },
+  {
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdHNCuyuMqlpNPxwV-mDVF14NAs1xw8wRFhQ&s",
+    projectname: "UniversalMl",
+    description:
+      "A tutor site where users can learn to build the sites with the help of AI.",
+    link: "https://www.universalml.ai/",
+  },
+  {
+    image:
       "https://t4.ftcdn.net/jpg/03/21/87/17/240_F_321871791_I6DdiEL6qXp5iOxCaDHhuMcAS7oT2vHB.jpg",
     projectname: "Virtual Reality",
     description: "Virual reality is a animated website about VR products",
     link: "https://virtualrelaitysite.netlify.app/",
   },
+
   {
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4j8sg4eqf-WzytGb4C4l5BtV1rtcYpEUiD4_SX4fZ7Q&s",
@@ -18,14 +35,6 @@ const projectAPi = [
     description:
       " E-commerce webapp, where customers can see the shoes category list and admin can add shoes products",
     link: "https://myshoeshop.netlify.app/",
-  },
-  {
-    image:
-      "https://www.feedough.com/wp-content/uploads/2021/09/project-manager-1024x576.webp",
-    projectname: "Gigantic",
-    description:
-      "Gigantic is a project management webiste used for the various knowlodge related to project.",
-    link: "https://projecttraining.netlify.app/",
   },
 ];
 

@@ -30,14 +30,14 @@ const Projectcard = (props) => {
         {isHover && (
           <motion.div
             key="content"
-            className="absolute bottom-0 bg-zinc-900 opacity-75 h-[50%]"
+            className="absolute bottom-0 bg-zinc-900 opacity-75 h-[50%] flex flex-col gap-2 justify-end items-start p-2"
             initial={{ y: 50, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             exit={{ y: 50, opacity: 0 }}
             transition={{ duration: 0.5 }}
           >
             <h1>{props.projectname}</h1>
-            <h1>{props.description}</h1>
+            <h1 className="line-clamp-4 text-sm">{props.description}</h1>
             <button>
               <Link to={props.link} className="bg-zinc-700 rounded-full p-2">
                 See More
